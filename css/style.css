@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.container{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.peopleList{
+  list-style: none;
+}
+.peopleList li{
+  margin-top: 10px;
+  width: 150px;
+  height: 20px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  cursor: pointer;
+
+}
